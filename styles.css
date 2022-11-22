@@ -1,0 +1,187 @@
+/*@media*/
+
+*, *::before, *::after {
+  box-sizing: boreder-box;
+  margin: 0;
+}
+
+#welcome-section{
+  height: 100vh;
+  width: 100%;
+}
+
+#navbar {
+  position: fixed;
+  background-color: #0E4173;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+nav ul {
+  height: 100%;
+  display: flex;
+  list-style: none;
+  padding-right: 1vw;
+}
+
+nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  1vw;
+  font-size: 5vh;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+nav li:hover {
+  background-color: purple;
+}
+
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-image: linear-gradient(62deg, #4F6384 0%, #236AE4 100%);
+}
+
+.main h1 {
+  font-size: 10vh;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+
+.main p {
+  height: 10px;
+  font-size: 4vh;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(90deg, #FFFF33 0%, #FFFF66 100%);
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding: 30px;
+  gap: 3vw;
+}
+
+#projects h1 {
+  width: 100%;
+  text-align: center;
+  color: #606060;
+  font-weight: normal;
+  font-size: 3vw;
+  margin-bottom: -10px;
+}
+
+.project-tile {
+  width: 350px;
+  height: 200px;
+  background-color: #5873A1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.project-tile a {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.project-tile p {
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+#projects h2 {
+  width: 100%;
+  text-align: center;
+  color: #606060;
+  font-weight: normal;
+  font-size: 1.5vw;
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+
+.project-tile:hover {
+  padding: 7px;
+}
+
+.project-tile img {
+  width: 100%;
+  height: 80%;
+}
+
+hr {
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #0E4173;
+  border: 0;
+}
+
+.contact h1{
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  color: #606060;
+}
+
+
+
+.contact {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #F5ED82;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: blue;
+  font-size: 2vw;
+}
